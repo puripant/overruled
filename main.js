@@ -43,7 +43,7 @@ let draw = () => {
       .attr('y', (d, i) => (i+1) * cell_size - 3)
     .transition(t)
       .delay(d => d.years/5)
-      .attr('x', d => projections.x ? 0 : date_scale(date_from_text(d.overruled_year)))
+      .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruled_year)) - cell_size/2))
       .style('opacity', () => projections.y ? 0 : 1);
 
   svg.selectAll('.overruling')
@@ -60,7 +60,7 @@ let draw = () => {
       .attr('y', (d, i) => (i+1) * cell_size - 3)
     .transition(t)
       .delay(d => d.years/5)
-      .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruling_year)) + cell_size))
+      .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruling_year)) + cell_size/2))
       .style('opacity', () => (projections.x || projections.y) ? 0 : 1);
 
   svg.selectAll('.cell')
