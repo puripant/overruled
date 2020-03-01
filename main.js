@@ -68,7 +68,7 @@ let draw = () => {
     .join(
       enter => enter.append("rect")
         .call(enter => enter.append("svg:title")
-          .text(d => `${d.overruled} in ${d.overruled_year.getFullYear()} overruled by ${d.overruling} in ${d.overruling_year.getFullYear()}`)
+          .text(d => `${d.overruled} in ${d.overruled_year.getFullYear()} overruled by ${d.overruling} in ${d.overruling_year.getFullYear()} (${d.overruling_year.getFullYear()-d.overruled_year.getFullYear()} years)`)
         ),
       update => update,
       exit => exit.remove()
@@ -80,9 +80,9 @@ let draw = () => {
       .on('mouseover', d => {
         svg.selectAll('rect.cell')
           .filter(dd => {
-            if (projections['default']) return dd == d;
+            if (projections['default']) return dd.overruled === d.overruled;
             if (projections['x']) return dd.date.getFullYear() === d.date.getFullYear();
-            if (projections['y']) return dd.overuled === d.overuled;
+            if (projections['y']) return dd.overruled === d.overruled;
           })
           .attr('fill', d => d3.rgb(color_scale(d.type)).darker(2))
       })
@@ -184,7 +184,7 @@ d3.csv('data.csv').then(data => {
         stack: names_by_year[year].length
       });
 
-      names_by_year[year].push(d.overuled);
+      names_by_year[year].push(d.overruled);
     }
     names[idx].years = (idx === 0) ? counter : (names[idx-1].years + counter);
   });
