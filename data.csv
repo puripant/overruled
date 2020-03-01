@@ -1,0 +1,127 @@
+type,article,clause,overruled,overruled_code,overruled_year,overruling,overruling_code,overruling_year
+Common law,Admiralty,,Rose v. Himley, 8 U.S. (4 Cranch) 241,1808,Hudson v. Guestier, 10 U.S. (6 Cranch) 281,1810
+Common law,Contract,,Sheehy v. Mandeville, 10 U.S. (6 Cranch) 253,1810,Mason v. Eldred, 73 U.S. (6 Wall.) 231,1868
+Common law,Admiralty,,The Thomas Jefferson, 23 U.S. (10 Wheat.) 428,1825,The Genessee Chief, 53 U.S. (12 How.) 443,1851
+Constitutional,Article Three,,Swift v. Tyson, 41 U.S. (16 Pet.) 1,1842,Erie Railroad Co. v. Tompkins, 304 U.S. 64 ,1938
+Common law,Admiralty,,The Schooner Catherine v. Dickinson, 58 U.S. (17 How.) 170,1854,United States v. Reliable Transfer Co., 421 U.S. 397 ,1975
+Common law,Admiralty,,Minturn v. Maynard, 58 U.S. (17 How.) 476,1855,Exxon Corp. v. Central Gulf Lines Inc., 500 U.S. 603 ,1991
+Constitutional,Article Four,Extradition Clause,Kentucky v. Dennison, 65 U.S. (24 How.) 66,1861,Puerto Rico v. Branstad, 483 U.S. 219 ,1987
+Constitutional,Article One,State import/export tax,Low v. Austin, 80 U.S. (13 Wall.) 29,1872,Michelin Tire Corp. v. Wages, 423 U.S. 276 ,1976
+Constitutional,Article One,Ex post facto,Kring v. Missouri, 107 U.S. 221 ,1883,Collins v. Youngblood, 497 U.S. 37 ,1990
+Constitutional,Fourteenth Amendment,Equal protection,Pace v. Alabama, 106 U.S. (16 Otto) 583,1883,McLaughlin v. Florida, 379 U.S. 184 ,1964
+Statutory,Habeas,,Wales v. Whitney ,,1885,Hensley v. Municipal Court, 411 U.S. 345 ,1973
+Constitutional,Fifth Amendment,Double jeopardy,Coffey v. United States, 116 U.S. 436 ,1886,United States v. One Assortment of 89 Firearms, 465 U.S. 354 ,1984
+Common law,Admiralty,,The Harrisburg, 119 U.S. 199 ,1886,Moragne v. States Marine Lines, 398 U.S. 375 ,1970
+Constitutional,Fifth Amendment,Grand jury,Ex parte Bain, 121 U.S. 1 ,1887,United States v. Miller, 471 U.S. 130 ,1985
+Constitutional,Article One,Federal tax,Pollock v. Farmers' Loan & Trust Co., 157 U.S. 429 (in part),1895,South Carolina v. Baker, 485 U.S. 505 ,1988
+Constitutional,Fourteenth Amendment,Equal protection,Plessy v. Ferguson, 163 U.S. 537 ,1896,Brown v. Board of Education, 347 US 483 ,1954
+Constitutional,Article One,Ex post facto,Thompson v. Utah, 170 U.S. 343 ,1898,Collins v. Youngblood, 497 U.S. 37 ,1990
+Statutory,Habeas,,Baker v. Grice, 169 U.S. 284 ,1898,Hensley v. Municipal Court, 411 U.S. 345 ,1973
+Constitutional,Fifth Amendment,Self-incrimination,Twining v. New Jersey, 211 U.S. 78 ,1908,Malloy v. Hogan, 378 U.S. 1 ,1964
+Constitutional,Fifth Amendment,Double jeopardy,Brantley v. Georgia, 217 U.S. 284 (per curiam),1910,Price v. Georgia, 398 U.S. 323 ,1970
+Statutory,Antitrust,,Dr. Miles Medical Co. v. John D. Park & Sons Co., 220 U.S. 373 ,1911,"Leegin Creative Leather Products, Inc. v. PSKS, Inc.", 551 U.S. 877 ,2007
+Statutory,Habeas,,Johnson v. Hoy, 227 U.S. 245 ,1913,Hensley v. Municipal Court, 411 U.S. 345 ,1973
+Constitutional,Article One,Commerce Clause,Hammer v. Dagenhart, 247 U.S. 251 ,1918,United States v. Darby Lumber Co., 312 U.S. 100 ,1941
+Constitutional,Article Three,Compensation Clause,Evans v. Gore, 253 U.S. 245 ,1920,United States v. Hatter, 532 U.S. 557 ,2001
+Statutory,Habeas,,Stallings v. Splain, 253 U.S. 339 ,1920,Hensley v. Municipal Court, 411 U.S. 345 ,1973
+Constitutional,Fifth Amendment,Due process,Adkins v. Children's Hospital, 261 U.S. 525 ,1923,West Coast Hotel Co. v. Parrish, 300 U.S. 379 ,1937
+Constitutional,Article Three,Compensation Clause,Miles v. Graham, 268 U.S. 501 ,1925,O'Malley v. Woodrough, 307 U.S. 277 ,1939
+Constitutional,First Amendment,Free speech clause,Whitney v. California, 274 U.S. 357 ,1927,Brandenburg v. Ohio, 395 U.S. 444 ,1969
+Constitutional,Fourth Amendment,,Olmstead v. United States, 277 U.S. 438 ,1928,Katz v. United States, 389 U.S. 347 ,1967
+Constitutional,Fourteenth Amendment,Substantive due process,Liggett Co. v. Baldridge, 278 U.S. 105 ,1928,North Dakota Pharmacy Board v. Snyder’s Drug Stores, 414 U.S. 156 ,1973
+Constitutional,Fourteenth Amendment,Equal protection,Quaker City Cab Co. v. Pennsylvania, 277 U.S. 389 ,1928,Lehnhausen v. Lake Shore Auto Parts Co., 410 U.S. 356 ,1973
+Constitutional,Article One,Article One courts,Ex parte Bakelite Corp., 279 U.S. 438 ,1929,Glidden Co. v. Zdanok, 370 U.S. 530 ,1962
+Constitutional,Sixth Amendment,Jury right,Sinclair v. United States, 279 U.S. 263 ,1929,United States v. Gaudin, 515 U.S. 506 ,1995
+Constitutional,Article One,Article One courts,Williams v. United States, 289 U.S. 553 ,1933,Glidden Co. v. Zdanok, 370 U.S. 530 ,1962
+Statutory,Habeas,,McNally v. Hill, 293 U.S. 131 ,1934,Peyton v. Rowe, 391 U.S. 54 ,1968
+Common law,Res judicata,,Triplett v. Lowell, 297 U.S. 638 ,1936,Blonder-Tongue Labs v. University of Illinois Foundation, 402 U.S. 313 ,1971
+Constitutional,Article One,Commerce Clause,Puget Sound Stevedoring Co. v. State Tax Commission, 302 U.S. 90 ,1937,Department of Revenue v. Washington Stevedoring Cos., 435 U.S. 734 ,1978
+Constitutional,Fifth Amendment,Double jeopardy,Palko v. Connecticut, 302 U.S. 319 ,1937,Benton v. Maryland, 395 U.S. 784 ,1969
+Constitutional,Fourteenth Amendment,Equal protection,Breedlove v. Suttles, 302 U.S. 277 ,1937,Harper v. Virginia State Board of Elections, 383 U.S. 663 ,1966
+Constitutional,First Amendment,Free speech clause,Minersville School District v. Gobitis, 310 U.S. 586 ,1940,West Virginia State Board of Education v. Barnette, 319 U.S. 624 ,1943
+Constitutional,Article Six,Supremacy Clause,Reitz v. Mealey, 314 U.S. 33 ,1941,Perez v. Campbell, 402 U.S. 637 ,1971
+Statutory,Labor,,Moore v. Illinois Central Railroad, 312 U.S. 630 ,1941,Andrews v. Louisville & Nashville Railroad, 406 U.S. 320 ,1972
+Constitutional,First Amendment,Free speech clause,Valentine v. Chrestensen, 316 U.S. 52 ,1942,Virginia State Pharmacy Board v. Virginia Citizens Consumer Council, 425 U.S. 748 ,1976
+Constitutional,Sixth Amendment,Right to counsel,Betts v. Brady, 316 U.S. 455 ,1942,Gideon v. Wainwright, 372 U.S. 335 ,1963
+Constitutional,Article One,State import/export tax,Hooven & Allison Co. v. Evatt, 324 U.S. 652 ,1945,Limbach v. Hooven & Allison Co., 466 U.S. 353 ,1984
+Constitutional,Eleventh Amendment,,Ford Motor Co. v. Department of Treasury, 323 U.S. 459 ,1945,Lapides v. Board of Regents of University System of Georgia, 535 U.S. 613 ,2002
+Constitutional,Article One,Commerce Clause,Joseph v. Carter & Weekes Stevedoring Co., 330 U.S. 422 ,1947,Department of Revenue v. Washington Stevedoring Cos., 435 U.S. 734 ,1978
+Constitutional,Fourth Amendment,,Harris v. United States, 331 U.S. 145 ,1947,Chimel v. California, 395 U.S. 752 ,1969
+Statutory,Antitrust,,United States v. Yellow Cab Co., 332 U.S. 218 ,1947,Copperweld Corp. v. Independence Tube Corp., 467 U.S. 752 ,1984
+Constitutional,Fourteenth Amendment,Equal protection,Goesaert v. Cleary, 335 U.S. 464 ,1948,Craig v. Boren, 429 U.S. 190 ,1976
+Statutory,Habeas,,Ahrens v. Clark, 335 U.S. 188 (in part),1948,Braden v. 30th Judicial Circuit Court of Kentucky, 410 U.S. 484 ,1973
+Constitutional,Fourth Amendment,,Wolf v. Colorado, 338 U.S. 25 ,1949,Mapp v. Ohio, 367 U.S. 643 ,1961
+Constitutional,Fourth Amendment,,Lustig v. United States, 338 U.S. 74 ,1949,Elkins v. United States, 364 U.S. 206 ,1960
+Statutory,Labor,,United Auto Workers v. Wisconsin Employment Relations Board, 336 U.S. 245 ,1949,International Ass'n of Machinists & Aerospace Workers v. Wisconsin Employment Relations Commission, 427 U.S. 132 ,1976
+Constitutional,Fourth Amendment,,United States v. Rabinowitz, 339 U.S. 56 ,1950,Chimel v. California, 395 U.S. 752 ,1969
+Constitutional,Fifth Amendment,Double jeopardy,Bryan v. United States, 338 U.S. 552 ,1950,Burks v. United States, 437 U.S. 1 ,1978
+Constitutional,Article One,Commerce Clause,Spector Motor Service v. O’Connor, 340 U.S. 602 ,1951,Complete Auto Transit v. Brady, 430 U.S. 274 ,1977
+Statutory,42 U.S.C. § 1983,,Collins v. Hardyman, 341 U.S. 651 ,1951,Griffin v. Breckenridge, 403 U.S. 88 ,1971
+Statutory,Antitrust,,Kiefer-Stewart Co. v. Jos. E. Seagram & Sons, 340 U.S. 211 ,1951,Copperweld Corp. v. Independence Tube Corp., 467 U.S. 752 ,1984
+Statutory,Arbitration,,Wilko v. Swan, 346 U.S. 427 ,1953,Rodriguez de Quijas v. Shearson/American Express Inc., 490 U.S. 477 ,1989
+Constitutional,Fifth Amendment,Double jeopardy,Sapir v. United States, 348 U.S. 373 ,1955,Burks v. United States, 437 U.S. 1 ,1978
+Statutory,Federal crime,,United States v. Bramblett, 348 U.S. 503 ,1955,Hubbard v. United States, 514 U.S. 695 ,1995
+Constitutional,First Amendment,Free speech clause,Roth v. United States, 354 U.S. 476 ,1957,Miller v. California, 413 U.S. 15 ,1973
+Constitutional,Fifth Amendment,Double jeopardy,Yates v. United States, 354 U.S. 298 (in part),1957,Burks v. United States, 437 U.S. 1 ,1978
+Constitutional,Sixth Amendment,Confrontation Clause,Delli Paoli v. United States, 352 U.S. 232 ,1957,Bruton v. United States, 391 U.S. 123 ,1968
+Constitutional,Fourteenth Amendment,Equal protection,Morey v. Doud, 354 U.S. 457 ,1957,City of New Orleans v. Dukes, 427 U.S. 297 (per curiam),1976
+Constitutional,Fifth Amendment,Double jeopardy,Hoag v. New Jersey, 356 U.S. 464 ,1958,Ashe v. Swenson, 397 U.S. 436 ,1970
+Constitutional,Fourteenth Amendment,Citizenship,Perez v. Brownell, 356 U.S. 44 ,1958,Afroyim v. Rusk, 387 U.S. 253 ,1967
+Constitutional,Fourth Amendment,,Jones v. United States, 362 U.S. 257 ,1960,United States v. Salvucci, 448 U.S. 83 ,1980
+Constitutional,Fifth Amendment,Double jeopardy,Forman v. United States, 361 U.S. 416 ,1960,Burks v. United States, 437 U.S. 1 ,1978
+Statutory,Habeas,,Parker v. Ellis, 362 U.S. 574 (per curiam),1960,Carafas v. LaVallee, 391 U.S. 234 ,1968
+Constitutional,Fifth Amendment,Self-incrimination,Cohen v. Hurley, 366 U.S. 117 ,1961,Spevack v. Klein, 385 U.S. 511 ,1967
+Constitutional,Fourteenth Amendment,Equal protection,Hoyt v. Florida, 368 U.S. 57 ,1961,Taylor v. Louisiana, 419 U.S. 522 ,1975
+Statutory,43 U.S.C. § 1983,,Monroe v. Pape, 365 U.S. 167 (in part),1961,Monell v. Department of Social Services of the City of New York, 436 U.S. 658 ,1978
+Constitutional,Article Six,Supremacy Clause,Kesler v. Department of Public Safety, 369 U.S. 153 ,1962,Perez v. Campbell, 402 U.S. 637 ,1971
+Statutory,Labor,,Sinclair Refining Co. v. Atkinson, 370 U.S. 195 ,1962,"Boys Markets, Inc. v. Retail Clerks Union", 398 U.S. 235 ,1970
+Statutory,Habeas,,Fay v. Noia, 372 U.S. 391 ,1963,Coleman v. Thompson, 501 U.S. 722 ,1991
+Constitutional,Fourth Amendment,,Aguilar v. Texas, 378 U.S. 108 ,1964,Illinois v. Gates, 462 U.S. 213 ,1983
+Constitutional,Eleventh Amendment,,Parden v. Terminal Railroad Co. of Alabama Docks Department, 377 U.S. 184 ,1964,Welch v. Texas Department of Highways & Transportation, 483 U.S. 468 ,1987
+Constitutional,Eleventh Amendment,,Parden v. Terminal Railroad Co. of Alabama Docks Department, 377 U.S. 184 ,1964,College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board, 527 U.S. 666 ,1999
+Constitutional,Fourteenth Amendment,Equal protection,Swain v. Alabama, 380 U.S. 202 ,1965,Batson v. Kentucky, 476 U.S. 79 ,1986
+Constitutional,Article One,Commerce Clause,Joseph E. Seagram & Sons v. Hostetter, 384 U.S. 35 ,1966,Healy v. Beer Institute, 491 U.S. 324 ,1989
+Statutory,Antitrust,,"United States v. Arnold, Schwinn & Co.", 388 U.S. 365 ,1967,"Continental Television, Inc. v. GTE Sylvania, Inc.", 433 U.S. 36 ,1977
+Constitutional,First Amendment,Free speech clause,Amalgamated Food Employees Union Local 590 v. Logan Valley Plaza, 391 U.S. 308 ,1968,Hudgens v. National Labor Relations Board, 424 U.S. 507 ,1976
+Statutory,Antitrust,,Albrecht v. Herald Co., 390 U.S. 145 ,1968,State Oil Co. v. Khan, 522 U.S. 3 ,1997
+Constitutional,Article One,Article One courts,O'Callahan v. Parker, 395 U.S. 258 ,1969,Solorio v. United States, 483 U.S. 435 ,1987
+Constitutional,Fourth Amendment,,Spinelli v. United States, 393 U.S. 410 ,1969,Illinois v. Gates, 462 U.S. 213 ,1983
+Constitutional,Eleventh Amendment,,Shapiro v. Thompson, 394 U.S. 618 ,1969,Edelman v. Jordan, 415 U.S. 651 ,1974
+Constitutional,Fourteenth Amendment,Procedural due process,Simpson v. Rice, 395 U.S. 711 ,1969,Alabama v. Smith, 490 U.S. 794 ,1989
+Constitutional,Eleventh Amendment,,Wyman v. Bowens, 397 U.S. 49 ,1970,Edelman v. Jordan, 415 U.S. 651 ,1974
+Constitutional,Article Three,,Durham v. United States, 401 U.S. 481 ,1971,Dove v. United States, 423 U.S. 325 (per curiam),1976
+Constitutional,Eleventh Amendment,,State Department of Health & Rehabilitation Services. v. Zarate, 407 U.S. 918 ,1972,Edelman v. Jordan, 415 U.S. 651 ,1974
+Constitutional,Fourteenth Amendment,Equal protection,Baker v. Nelson, 409 U.S. 810 ,1972,Obergefell v. Hodges, 576 U.S. ___ ,2015
+Constitutional,Article Four,Equal footing doctrine,Bonelli Cattle Co. v. Arizona, 414 U.S. 313 ,1973,Oregon ex rel. State Land Board v. Corvallis Sand & Gravel Co., 429 U.S. 363 ,1977
+Constitutional,Eleventh Amendment,,Sterrett v. Mothers’ & Children’s Rights Organization, 409 U.S. 809 ,1973,Edelman v. Jordan, 415 U.S. 651 ,1974
+Constitutional,First Amendment,Establishment Clause,Meek v. Pittinger, 421 U.S. 349 ,1975,Mitchell v. Helms, 530 U.S. 793 ,2000
+Constitutional,Fifth Amendment,Double jeopardy,United States v. Jenkins, 420 U.S. 358 ,1975,United States v. Scott, 437 U.S. 82 ,1978
+Constitutional,Article One,Commerce Clause,National League of Cities v. Usery, 426 U.S. 833 ,1976,Garcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 ,1985
+Constitutional,First Amendment,Establishment Clause,Wolman v. Walter, 433 U.S. 229 ,1977,Mitchell v. Helms, 530 U.S. 793 ,2000
+Constitutional,First Amendment,Free speech clause,Abood v. Detroit Board of Education, 431 U.S. 209 ,1977,Janus v. AFSCME, 585 U.S. ,2018
+Constitutional,Fourth Amendment,,Arkansas v. Sanders, 442 U.S. 753 ,1979,California v. Acevedo, 500 U.S. 565 ,1991
+Constitutional,Fifth Amendment,Takings Clause,Agins v. City of Tiburon, 447 U.S. 255,1980,Lingle v. Chevron U.S.A. Inc., 544 U.S. 528 ,2005
+Constitutional,Sixth Amendment,Confrontation Clause,Ohio v. Roberts, 448 U.S. 56 ,1980,Crawford v. Washington, 541 U.S. 36 ,2004
+Constitutional,Sixth Amendment,Right to counsel,Baldasar v. Illinois, 446 U.S. 222 ,1980,Nichols v. United States, 511 U.S. 738 ,1994
+Constitutional,Fourth Amendment,,Robbins v. California, 453 U.S. 420 ,1981,United States v. Ross, 456 U.S. 798 ,1982
+Constitutional,Fourteenth Amendment,Procedural due process,Parratt v. Taylor, 451 U.S. 527 ,1981,Daniels v. Williams, 474 U.S. 327 ,1986
+Constitutional,Fourteenth Amendment,Substantive due process,City of Akron v. Akron Center for Reproductive Health, 462 U.S. 416 ,1983,Planned Parenthood v. Casey, 505 U.S. 833 ,1992
+Constitutional,First Amendment,Establishment Clause,School District of City of Grand Rapids v. Ball, 473 U.S. 373 ,1985,Agostini v. Felton, 521 U.S. 203 ,1997
+Constitutional,First Amendment,Establishment Clause,Aguilar v. Felton, 473 U.S. 402 ,1985,Agostini v. Felton, 521 U.S. 203 ,1997
+Constitutional,Sixth Amendment,Right to counsel,Michigan v. Jackson, 475 U.S. 625 ,1986,Montejo v. Louisiana, 129 S. Ct. 2079 ,2009
+Constitutional,Fourteenth Amendment,Substantive due process,Thornburgh v. American College of Obstetricians & Gynecologists, 476 U.S. 747 ,1986,Planned Parenthood v. Casey, 505 U.S. 833 ,1992
+Constitutional,Fourteenth Amendment,Substantive due process,Bowers v. Hardwick, 478 U.S. 186 ,1986,Lawrence v. Texas, 539 U.S. 558 ,2003
+Constitutional,Eighth Amendment,,Booth v. Maryland, 482 U.S. 496 ,1987,Payne v. Tennessee, 501 U.S. 808 ,1991
+Constitutional,Fifth Amendment,Double jeopardy,United States v. Halper, 490 U.S. 435 ,1989,Hudson v. United States, 522 U.S. 93 ,1997
+Constitutional,Eighth Amendment,,South Carolina v. Gathers, 490 U.S. 805 ,1989,Payne v. Tennessee, 501 U.S. 808 ,1991
+Constitutional,Eighth Amendment,,Penry v. Lynaugh, 492 U.S. 302 ,1989,Atkins v. Virginia, 536 U.S. 304 ,2002
+Constitutional,Eighth Amendment,,Stanford v. Kentucky, 492 U.S. 361 ,1989,Roper v. Simmons, 543 U.S. 551 ,2005
+Constitutional,Eleventh Amendment,,Pennsylvania v. Union Gas Co., 491 U.S. 1 ,1989,Seminole Tribe of Florida v. Florida, 517 U.S. 44 ,1997
+Constitutional,First Amendment,Free speech clause,Austin v. Michigan Chamber of Commerce, 494 U.S. 652 ,1990,Citizens United v. FEC, 558 U.S. 310 ,2010
+Constitutional,Fifth Amendment,Double jeopardy,Grady v. Corbin, 495 U.S. 508 ,1990,United States v. Dixon, 509 U.S. 688 ,1993
+Constitutional,Sixth Amendment,Jury right,Walton v. Arizona, 497 U.S. 639 ,1990,Ring v. Arizona, 536 U.S. 584 ,2002
+Constitutional,Fourteenth Amendment,Equal protection,"Metro Broadcasting, Inc. v. FCC", 497 U.S. 547 ,1990,"Adarand Constructors, Inc. v. Peña", 515 U.S. 200 ,1995
+Constitutional,Article One,Commerce Clause,Quill Corp. v. North Dakota, 504 U.S. 298 ,1992,"South Dakota v. Wayfair, Inc.", 585 U.S. ___ ,2018
+Common law,Absolute and qualified immunity,,Saucier v. Katz, 533 U.S. 194 ,2001,Pearson v. Callahan, 555 U.S. 223 ,2009
+Constitutional,Sixth Amendment,Jury right,Harris v. United States, 536 U.S. 545 ,2002,Alleyne v. United States, 570 U.S. 99 ,2013
+Constitutional,First Amendment,Free speech clause,McConnell v. Federal Election Commission, 540 U.S. 93 (in part),2003,Citizens United v. FEC, 558 U.S. 310 ,2010
