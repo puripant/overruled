@@ -1,19 +1,37 @@
-const width = 700;
+function get_width() {
+  return Math.max(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth
+  );
+}
+let is_mobile = get_width() < 800;
+const width_mobile = 340;
+const width_desktop = 500;
+
+const cell_width = is_mobile ? 4 : 10;
+const cell_height = 10;
+
+d3.select("body").style("width", (is_mobile ? (width_mobile + 30) : (width_desktop + 300)) + "px");
+const width = is_mobile ? width_mobile : width_desktop;
 const height = 1300;
-const margin = { left: 250, right: 250, top: 50, bottom: 20 };
-const cell_size = 10;
+
+const margin = { left: is_mobile ? 15: 150, right: is_mobile ? 15 : 150, top: 50, bottom: 20 };
+
 
 const date_scale = d3.scaleTime()
   .domain([new Date(1800, 0, 1), new Date(2050, 0, 1)])
   .range([0, width]);
 const x_scale = d3.scaleLinear()
-  .domain([0, width/cell_size*2])
+  .domain([0, width/cell_width*2])
   .range([3, width]);
 const y_scale = d3.scaleLinear()
-  .domain([0, height/cell_size])
+  .domain([0, height/cell_height])
   .range([0, height]);
 const freq_scale = d3.scaleLinear()
-  .domain([0, height/cell_size + 10])
+  .domain([0, height/cell_height + 10])
   .range([0, height]);
 const color_scale = d3.scaleOrdinal(d3.schemeTableau10)
   // .domain([9, 10]);
@@ -29,39 +47,43 @@ const t = svg.transition().duration(750);
 let names = [];
 let cells = [];
 let draw = () => {
-  svg.selectAll('.overruled')
-      .data(names)
-    .join(
-      enter => enter.append('text'),
-      update => update,
-      exit => exit.remove()
-    )
-      .attr('class', 'overruled')
-      .text(d => d.overruled)
-      .attr('text-anchor', 'end')
-      .attr('fill', d => color_scale(d.type))
-      .attr('y', (d, i) => (i+1) * cell_size - 3)
-    .transition(t)
-      .delay(d => d.years/5)
-      .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruled_year)) - cell_size/2))
-      .style('opacity', () => projections.y ? 0 : 1);
-
-  svg.selectAll('.overruling')
-      .data(names)
-    .join(
-      enter => enter.append('text'),
-      update => update,
-      exit => exit.remove()
-    )
-      .attr('class', 'overruling')
-      .text(d => d.overruling)
-      .attr('text-anchor', 'begin')
-      .attr('fill', d => color_scale(d.type))
-      .attr('y', (d, i) => (i+1) * cell_size - 3)
-    .transition(t)
-      .delay(d => d.years/5)
-      .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruling_year)) + cell_size/2))
-      .style('opacity', () => (projections.x || projections.y) ? 0 : 1);
+  if (!is_mobile) {
+    svg.selectAll('.overruled')
+        .data(names)
+      .join(
+        enter => enter.append('text'),
+        update => update,
+        exit => exit.remove()
+      )
+        .attr('class', 'overruled')
+        .text(d => d.overruled)
+        .attr('text-anchor', 'end')
+        .attr('fill', d => color_scale(d.type))
+        .attr('y', (d, i) => (i+1) * cell_height - 3)
+      .transition(t)
+        .delay(d => d.years/5)
+        .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruled_year)) - cell_width/2))
+        .style('opacity', () => projections.y ? 0 : 1);
+  }
+  
+  if (!is_mobile) {
+    svg.selectAll('.overruling')
+        .data(names)
+      .join(
+        enter => enter.append('text'),
+        update => update,
+        exit => exit.remove()
+      )
+        .attr('class', 'overruling')
+        .text(d => d.overruling)
+        .attr('text-anchor', 'begin')
+        .attr('fill', d => color_scale(d.type))
+        .attr('y', (d, i) => (i+1) * cell_height - 3)
+      .transition(t)
+        .delay(d => d.years/5)
+        .attr('x', d => projections.x ? 0 : (date_scale(date_from_text(d.overruling_year)) + cell_width/2))
+        .style('opacity', () => (projections.x || projections.y) ? 0 : 1);
+  }
 
   svg.selectAll('.cell')
       .data(cells)
@@ -74,8 +96,8 @@ let draw = () => {
       exit => exit.remove()
     )
       .attr('class', 'cell')
-      .attr('width', cell_size/2 - 1)
-      .attr('height', cell_size - 1)
+      .attr('width', cell_width/2 - 1)
+      .attr('height', cell_height - 1)
       .attr('fill', d => color_scale(d.type))
       .on('mouseover', d => {
         svg.selectAll('rect.cell')
@@ -129,12 +151,12 @@ let draw = () => {
   // Legend
   svg.append("g")
     .attr("class", "legend")
-    .attr("transform", `translate(${width-50},0)`);
+    .attr("transform", `translate(${width-75},0)`);
   svg.select(".legend")
     .classed("dark-background", projections['y'])
     .call(d3.legendColor()
-      .shapeWidth(cell_size-1)
-      .shapeHeight(cell_size-1)
+      .shapeWidth(cell_width-1)
+      .shapeHeight(cell_height-1)
       .shapePadding(0)
       .scale(color_scale)
     );
